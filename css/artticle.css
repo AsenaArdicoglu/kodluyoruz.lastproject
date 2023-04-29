@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+font-family:'Poppins', sans-serif;
+background-color: #FFF4D2;
+font-size: 14px;
+letter-spacing: 1px;
+word-spacing: 5px;
+line-height: 1.5em;
+text-indent: 1.5rem;
+text-align:justify;
+}
+/* navbar container start */
+
+.container{
+    background-color: #E2725B;
+} 
+
+.container ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+
+.container ul li{
+    width: 180px;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.container ul li a{
+    text-decoration: none;
+    color:#FFF4D2;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.container ul li:hover{
+    background-color:#65000B;
+    border-radius: 20px;
+}
+
+/* navbar container end */
+
+
+/* article container start */
+
+.container2{
+    text-align: left;
+    float: left;
+    margin: 10px 10px 20px 20px;
+    }
+    
+    h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    font-family:fantasy;
+    text-transform:uppercase;
+    color: #E74646;
+    }
+    
+/* article container end */
+
+.footer-box{
+    display: flex;
+    padding: 10%;
+    margin-top: 10px;
+}
+
+ .footer-box .card{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+img{
+    border-radius: 50%;
+}
+.card1{
+  
+    list-style: none;
+   
+   
+}
+
+
+.card2{
+    
+    list-style: none;
+   
+    
+}
+
+
+.card3{
+    
+    list-style: none;
+    
+}
+
+
+.card4{
+ 
+    list-style: none;
+}
+
